@@ -21,7 +21,7 @@ app.post("/", (req, res) => {
         .create({
             body: mBody,
             to: mTo, // Text your number
-            from: "+12179552562", // From a valid Twilio number
+            from: "+12179553245", // From a valid Twilio number
         })
         .then((message) => console.log(message.sid));
     res.send("Done");
